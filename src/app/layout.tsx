@@ -11,6 +11,7 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://7adana.vercel.app"),
   title: nurseryConfig.seo.title,
   description: nurseryConfig.seo.description,
   keywords: nurseryConfig.seo.keywords,
@@ -19,6 +20,18 @@ export const metadata: Metadata = {
     description: nurseryConfig.seo.description,
     locale: "ar_EG",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "حضانة النجوم الصغيرة - نموذج تجريبي",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og-image.png"],
   },
 };
 
