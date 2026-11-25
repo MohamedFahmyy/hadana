@@ -172,9 +172,9 @@ export const nurseryConfig: NurseryConfig = {
     ],
   },
   contact: {
-    phoneDisplay: "0100 000 0000",
-    phoneHref: "tel:+201000000000",
-    whatsappNumber: "201000000000",
+    phoneDisplay: "+20 111 219 4828",
+    phoneHref: "tel:+201112194828",
+    whatsappNumber: "201112194828",
     whatsappDefaultMessage:
       "السلام عليكم، أرغب في الاستفسار عن التقديم والمواعيد في حضانة النجوم الصغيرة.",
     address: "15 شارع 9 (عنوان تجريبي)، المعادي، القاهرة، مصر",
